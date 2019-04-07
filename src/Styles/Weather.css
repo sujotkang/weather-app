@@ -1,0 +1,50 @@
+.alert {
+    max-width: 100%;
+    text-align: center;
+}
+#err {
+    display: flex;
+    justify-content: center;
+}
+
+#weather {
+    display: inline-block;
+}
+
+#weather p:not(.alert){
+    background-color: #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: rgb(148, 148, 148);
+    border-bottom: 1px solid;
+    outline-color: blue;
+    color: rgb(0, 140, 255);
+}
+
+#weather p:not(.alert) {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 400%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#loc, #temp, #hum, #desc {
+    color: rgb(80, 80, 80);
+}
+
+@media all and (max-width: 1300px) {
+    #weather {
+        margin-top: 5vh;
+    }
+}

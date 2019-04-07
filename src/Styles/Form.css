@@ -1,0 +1,58 @@
+#city, #country {
+    background-color: #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: rgb(148, 148, 148);
+    outline: none;
+    color: rgb(0, 140, 255);
+}
+
+#country {
+    margin-left: 3vh;
+}
+
+::placeholder {
+    color: rgb(0, 140, 255);
+}
+
+::placeholder:hover {
+    color: rgb(148, 148, 148);
+}
+
+#city:hover{
+    border-color: rgb(0, 140, 255);
+}
+
+#country:hover{
+    border-color: rgb(0,140,255);
+}
+
+#button-form {
+    margin-top: 2vh;
+}
+
+
+@media all and (max-width: 1300px) {
+    #form {
+        display: inline-block;
+        align-items: center;
+
+    }
+    #country {
+        margin-left: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#form {
+    animation: fadeIn 4s;
+}
