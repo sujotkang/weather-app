@@ -1,12 +1,11 @@
 #city, #country {
-    background-color: #fff;
-    border: 2px solid;
+    background-color: transparent;
     border-top: none;
     border-right: none;
     border-left: none;
-    border-color: rgb(148, 148, 148);
+    border-color: #1D7874;
     outline: none;
-    color: rgb(0, 140, 255);
+    color: #4B3B47;
 }
 
 #country {
@@ -14,25 +13,39 @@
 }
 
 ::placeholder {
-    color: rgb(0, 140, 255);
+    color: #1D7874;
 }
 
-::placeholder:hover {
-    color: rgb(148, 148, 148);
-}
 
 #city:hover{
-    border-color: rgb(0, 140, 255);
+    border-color: #114B5F;
 }
 
 #country:hover{
-    border-color: rgb(0,140,255);
+    border-color: #114B5F;
 }
 
 #button-form {
     margin-top: 2vh;
 }
 
+#button-form {
+    color: #E4FDE1;
+    background-color: #1D7874;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border-color: #F45B69;
+}
+
+#button-form:active {
+    background-color: #F45B69;
+    border-color: #F45B69;
+}
+
+#button-form:hover {
+    background-color: #F45B69;
+    border-color: #1D7874;
+}
 
 @media all and (max-width: 1300px) {
     #form {
@@ -41,7 +54,6 @@
 
     }
     #country {
-        margin-top: 1vh;
         margin-left: 0;
     }
 }

@@ -12,14 +12,12 @@
 }
 
 #weather p:not(.alert){
-    background-color: #fff;
+    background-color: transparent;
     border-top: none;
     border-right: none;
     border-left: none;
-    border-color: rgb(148, 148, 148);
     border-bottom: 1px solid;
-    outline-color: blue;
-    color: rgb(0, 140, 255);
+    color: #F45B69;
 }
 
 #weather p:not(.alert) {
@@ -40,7 +38,7 @@
 }
 
 #loc, #temp, #hum, #desc {
-    color: rgb(80, 80, 80);
+    color: #292F36;
 }
 
 @media all and (max-width: 1300px) {
