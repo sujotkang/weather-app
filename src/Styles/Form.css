@@ -1,5 +1,6 @@
 #city, #country {
     background-color: #fff;
+    border: 2px solid;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -40,6 +41,7 @@
 
     }
     #country {
+        margin-top: 1vh;
         margin-left: 0;
     }
 }
