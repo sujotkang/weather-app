@@ -1,4 +1,4 @@
-Simple weather app created with React and Bootstrap.
+Simple weather app created with React and Bootstrap. Deployed on Heroku: https://whether-weather2019.herokuapp.com/ 
 
 TODOS:
 - Add color scheme
